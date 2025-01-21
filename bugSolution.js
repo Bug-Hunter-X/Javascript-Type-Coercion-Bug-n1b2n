@@ -1,0 +1,1 @@
+function foo(a, b) {  if (typeof a === 'string' || typeof b === 'string') {    a = parseFloat(a);    b = parseFloat(b);  }  return a + b;}console.log(foo(1, "1")); //This will output 2 because Javascript will convert the string to a number before adding it to the number
