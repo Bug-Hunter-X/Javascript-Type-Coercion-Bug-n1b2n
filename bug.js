@@ -1,0 +1,1 @@
+function foo(a,b){return a+b;}console.log(foo(1, "1")); //This will output "11" instead of 2 because Javascript does type coercion and will concatenate the string and number instead of adding them
